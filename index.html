@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED NOTEBOOK – Assistência Técnica Especializada</title>
+
+    <style>
+        /* ----------- ESTILO GERAL ----------- */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #111;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff0000, #000000);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: yellow;
+            font-weight: bold;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Conteúdo */
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ff0000;
+            border-left: 5px solid #000;
+            padding-left: 10px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px #00000020;
+            border-left: 5px solid #0066ff;
+        }
+
+        .service-box img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ff0000;
+            color: white;
+            padding: 12px 18px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #cc0000;
+        }
+
+        /* Depoimentos */
+        .testimonials {
+            background: #000;
+            color: #fff;
+            padding: 40px;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+            border-left: 5px solid yellow;
+            padding-left: 10px;
+        }
+
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TOPO -->
+    <header>
+        <h1>RED NOTEBOOK</h1>
+        <p>Assistência Técnica Especializada em Notebooks</p>
+
+        <nav>
+            <a href="https://api.whatsapp.com/send/?phone=5511974382140&text=Problemas+com+o+seu+notebook%3F+A+Red+Notebook+%C3%A9+a+solu%C3%A7%C3%A3o+completa+para+voc%C3%AA%21+Somos+uma+assist%C3%AAncia+t%C3%A9cnica+especializada+em+notebooks+de+todas+as+marcas+e+modelos.&type=phone_number&app_absent=0">
+                WhatsApp
+            </a>
+
+            <a href="mailto:rednotebook369@gmail.com">E-mail</a>
+
+            <a href="https://www.facebook.com/profile.php?id=100077435889724&locale=pt_BR">Facebook</a>
+
+            <a href="https://www.instagram.com/rednotebook369/">Instagram</a>
+        </nav>
+    </header>
+
+    <!-- QUEM SOMOS -->
+    <div class="section">
+        <h2>Sobre a RED NOTEBOOK</h2>
+        <p>
+            A RED NOTEBOOK é especialista em manutenção de notebooks de todas as marcas e modelos.
+            Trabalhamos com reparos rápidos, peças de qualidade e garantia em todos os serviços.
+        </p>
+
+        <a class="button"
+           href="https://api.whatsapp.com/send/?phone=5511974382140&text=Quero+um+or%C3%A7amento+para+meu+notebook.&type=phone_number&app_absent=0">
+            Solicitar Orçamento
+        </a>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <div class="section">
+        <h2>Serviços</h2>
+
+        <div class="services">
+
+            <div class="service-box">
+                <img src="carcaca.jpg" alt="Carcaça quebrada">
+                <h3>Conserto de Carcaça</h3>
+                <p>Reparo de carcaça e dobradiça quebrada ou trincada.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="tela.jpg" alt="Troca de tela">
+                <h3>Troca de Tela</h3>
+                <p>Tela quebrada, manchada ou sem imagem? Nós trocamos.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="teclado.jpg" alt="Troca de teclado">
+                <h3>Troca de Teclado</h3>
+                <p>Teclado com falhas, teclas travadas ou que não funcionam.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="limpeza.jpg" alt="Limpeza">
+                <h3>Limpeza + Pasta Térmica</h3>
+                <p>Evite superaquecimento e aumente a vida útil do notebook.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="ssd.jpg" alt="Upgrade">
+                <h3>Upgrade (Memória, SSD, M.2)</h3>
+                <p>Deixe o notebook muito mais rápido com upgrades profissionais.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="formatacao.jpg" alt="Formatação">
+                <h3>Formatação Windows / Linux</h3>
+                <p>Instalação completa, otimização e recuperação de sistema.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="placa.jpg" alt="Placa mãe">
+                <h3>Conserto de Placa</h3>
+                <p>Reparo profissional de placa-mãe e circuitos eletrônicos.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DEPOIMENTOS -->
+    <div class="testimonials">
+        <h2 style="color: yellow;">Depoimentos de Clientes</h2>
+
+        <div class="testimonial">
+            <p>“Meu notebook ficou novo! Trabalho excelente e rápido, recomendo demais!”</p>
+            <strong>— Ana P.</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>“Trocaram a tela no mesmo dia. Atendimento muito bom.”</p>
+            <strong>— João R.</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>“Meu notebook travava muito. Depois da limpeza e pasta térmica ficou perfeito.”</p>
+            <strong>— Carlos F.</strong>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 RED NOTEBOOK — Assistência Técnica Especializada<br>
+        <a href="https://api.whatsapp.com/send/?phone=5511974382140">Clique para Falar no WhatsApp</a>
+    </footer>
+
+</body>
+</html>
